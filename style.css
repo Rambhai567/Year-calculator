@@ -15,7 +15,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background: var(--Light-grey);
+  background: var(--Off-black);
 }
 .container {
   display: flex;
@@ -25,10 +25,10 @@ body {
 }
 .content {
   background: var(--White);
-  width: 750px;
+  width: 600px;
   padding: 50px;
   border-radius: 20px;
-  border-bottom-right-radius: 40%;
+  border-bottom-right-radius: 30%;
   position: relative;
 }
 .input {
@@ -40,17 +40,19 @@ input {
   width: 150px;
   padding: 10px;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 25px;
   border-radius: 10px;
   border: 0.5px solid var(--Light-grey);
   outline: none;
   letter-spacing: 2px;
   caret-color: var(--Purple);
+  background: rgb(146, 146, 146);
 }
 h6 {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   color: var(--Light-red);
+  font-size: larger;
 }
 hr {
   border: none;
@@ -78,6 +80,7 @@ input:focus {
 .img{
   width: 65px;
   height: 65px;
+  /* border-radius: 50%; */
 }
 p.error {
   font-size: 12px;
@@ -85,6 +88,11 @@ p.error {
   color: var(--Light-red);
   font-style: italic;
   margin: 5px 0;
+}
+.result{
+  background: rgba(181, 199, 200, 0.87);
+  border-radius: 25px;
+ width: 374px;
 }
 .result h1 {
   font-size: 60px;
@@ -110,12 +118,16 @@ p.error {
     margin-right: 10px;
     border-radius: 5px;
   }
+  .hy{
+    display: none;
+  }
   .content {
     background: var(--White);
     width: 300px;
     padding: 20px;
-    border-radius: 10px;
-    border-bottom-right-radius: 30%;
+    border-radius: 20px;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
     position: relative;
   }
   .result h1 {
@@ -130,5 +142,7 @@ p.error {
   }
   .result {
     margin-top: 40px;
+    width: auto;
+    height: auto;
   }
 }
