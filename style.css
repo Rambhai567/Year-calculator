@@ -35,6 +35,11 @@ body {
   display: flex;
   margin-bottom: 35px;
 }
+.attribution{
+  color: aliceblue;
+  /* background: white; */
+  margin-bottom: 32px;
+}
 input {
   font-size: 32px;
   width: 150px;
